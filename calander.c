@@ -6,7 +6,7 @@ int main(void) {
     int week;         //已經印到這個星期的第幾天了
     int k;
     for(k=3;k>0;--k)  printf("    ");
-    for(day=1, week=3; day<=month; ++day, ++week){
+    for(day=1, week=4; day<=month; ++day, ++week){
         if(week > 7){               //七天換行一次 
             printf("\n");
             week = 1;
